@@ -18,11 +18,14 @@
 </head>
 <body>
         <?php
-            include("header/logo-header.php");
+            include("header/includes/taskbar-header.php");
+        ?>
+        <?php
+            include("header/includes/logo-header.php");
         ?>
         <i class="fa fa-bars menu-logoheader"></i>
         <?php
-            include("header/nav-header.php");
+            include("header/includes/nav-header.php");
         ?>
 </body>
 </html>
