@@ -1,8 +1,11 @@
 <?php
-    //B1
-    $admin ='root';
-    $pass='';
-    $db= '';
-    $conn=mysqli_connect($admin, $pass,$db);
-
+    $host = "localhost"; /* Host name */
+    $user = "root"; /* User */
+    $password = ""; /* Password */
+    $dbname = "tutorial"; /* Database name */
+    $con = mysqli_connect($host, $user, $password,$dbname);
+    // Check connection
+    if (!$con) {
+        die("Connection failed: " . mysqli_connect_error());
+        }
 ?>

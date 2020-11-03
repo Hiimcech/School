@@ -1,5 +1,19 @@
-.logo-schoool .logo-school {
-    background-color: white;
-    border:1px solid red;
-    padding: 2%;
+/* logo truong */
+.logo-school{
+    border: 1px solid red;
+}
+/* thanh cong cu */
+.navbask {
+    border: 1px solid black;
+    font-size: 16px; 
+   
+    color : #fff
+   
+}
+
+/* thanh login */
+.navlg{
+    background-color: blue;
+    display: auto;
+    
 }
